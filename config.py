@@ -12,13 +12,13 @@ API_HASH = getenv("API_HASH")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 # Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME", "SOURABH_OWNER")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "@ARUN_RAJ_UP")
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME", "professor_Sukoon_Bott")
+BOT_USERNAME = getenv("BOT_USERNAME", "@KAVYA_MUSIC_BOT")
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME", "˹ šυкσση ✘ ɱυšιᴄ 🫧 ˼")
+BOT_NAME = getenv("BOT_NAME", "♡³_🫧𝆺꯭𝅥🅚𝗮𝘃𝘆𝗮 ꭙ 🅜𝘂𝘀𝗶𝗰𝆺꯭𝅥♪┼")
 #get Your Assistant User name
-ASSUSERNAME = getenv("ASSUSERNAME", "PROFESSOR_ASS")
+ASSUSERNAME = getenv("ASSUSERNAME", "ARUN_ASS")
 EVALOP = list(map(int, getenv("EVALOP", "7074689169").split()))
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://SachinSanatani:SACHINxSANATANI@sanatani.bnmsfbd.mongodb.net/?retryWrites=true&w=majority&appName=Sanatani")
@@ -34,7 +34,7 @@ SONG_DOWNLOAD_DURATION = int(
 LOGGER_ID = int(getenv("LOGGER_ID", "-1001986892837"))
 
 # Get this value from  on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "7074689169"))
+OWNER_ID = int(getenv("OWNER_ID", "6996759264"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -52,7 +52,7 @@ GIT_TOKEN = getenv(
 )  # Fill this variable if your upstream repository is private
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/PROFESSOR_NETWORK")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+jYkqtiXc-Wo0YjQ9")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+wkaK5HINVD8xZjU9")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
